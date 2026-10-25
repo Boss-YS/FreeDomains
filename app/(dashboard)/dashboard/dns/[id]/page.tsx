@@ -1,9 +1,7 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 
 export async function generateStaticParams() {
-  return [
-    { id: '1' }
-  ]
+  return [{ id: "1" }]
 }
 
 export default function DNSDetailPage() {
